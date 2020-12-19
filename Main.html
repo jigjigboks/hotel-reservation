@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Booking</title>
+	<link rel="stylesheet" type="text/javaScript">
+	
+	</head>
+        <body style="background-color: burlywood;">
+            <center>
+            <a href="facility.html"><button class="button" style="background-color: lightblue;height: 50px; width: 200; font-size: medium;"><b>Facility</b></a></button>
+            <a href="cont.html"><button class="button" style="background-color: lightblue;height: 50px; width: 200; font-size: medium;"><b>Contact Us</b></a></button>
+            <a href="history.html"><button class="button" style="color: green; background-color: lightblue;height: 50px; width: 200; font-size: medium;"><b>History</b></a></button>
+            <a href="Services.html"><button class="button" style="color: green; background-color: lightblue;height: 50px; width: 200; font-size: medium;"><b>Services</b></a></button>
+            <a href="Growth.html"><button class="button" style="color: green; background-color: lightblue;height: 50px; width: 200; font-size: medium;"><b>Growth</b></a></button>
+             
+            <form action="Main.php" method="POST">
+                
+                   
+                   
+                    <h2>Hotel Transylvania Reservation</h2>	
+                    <p>Complete Name</p>
+                    <input type="text" name="txtName" id="txtName">
+        
+                    <p>Email</p>
+                    <input type="email" name="txtEmail" id="txtEmail">
+                    
+                    <p>Phone Number/ Tel. Number</p>
+                    <input type="text" name="txtPhone" id="txtPhone">
+                                                
+                    <p>Check-in Date</p>
+                    <input type="Date" name="txtDateIn" id="txtDateIn">	
+                    
+                    <p>Check-out Date</p>
+                    <input type="Date" name="txtDateOut" id="txtDateOut">		
+                            
+                    <p>Time</p>
+                    <input type="Time" name="txtTime" id="txtTime">
+                                            
+                    <p>How many people?</p>
+                    <select name="txtPeople" id="txtPeople">
+                        <option value="1">1 person</option>
+                        <option value="2">2 persons</option>
+                        <option value="3">3 persons</option>
+                        <option value="4">4 persons</option>
+                        <option value="5">5 persons</option>
+                        <option value="5+">5+ persons</option>
+                    </select>
+                                                    
+                    <input type="submit" name="submit" id="submit" value="submit">
+                   
+                               
+                    </center>
+            </form>
+            
+        </body>
+</html>
